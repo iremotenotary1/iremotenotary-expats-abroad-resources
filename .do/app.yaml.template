@@ -7,7 +7,7 @@ services: []
 static_sites:
   - name: americans-abroad-latam-gulf
     github:
-      repo: OWNER/iremotenotary-expats-abroad-resources
+      repo: iremotenotary1/iremotenotary-expats-abroad-resources
       branch: main
       deploy_on_push: false
     source_dir: /
