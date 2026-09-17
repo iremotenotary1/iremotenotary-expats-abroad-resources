@@ -6,13 +6,16 @@ Static educational microsite for FeedWalls Expansion Program v2.
 
 - **Host:** DigitalOcean App Platform — Free Static Site
 - **Host family:** `ondigitalocean.app`
+- **App name:** `iremotenotary-expats-abroad`
 - **Output directory:** `public/`
 - **Index document:** `index.html`
 - **Error document:** `404.html`
-- **Region (template):** `nyc`
-- **deploy_on_push:** `false` (initial)
-- **Placeholder origin (local):** `https://PROPERTY-010-NOT-DEPLOYED.ondigitalocean.invalid`
-- **Post-deploy homepage canonical:** `/` on the actual `*.ondigitalocean.app` starter domain
+- **Region:** New York / NYC1 (`nyc`)
+- **deploy_on_push:** `false` (manual redeploy only)
+- **Production origin:** `https://iremotenotary-expats-abroad-dozom.ondigitalocean.app`
+- **Homepage canonical:** `/` on the assigned `*.ondigitalocean.app` starter domain
+- **Custom domain:** none
+- **Live price:** `$0/month` static site only
 
 Spaces (`digitaloceanspaces.com`) remains **UNUSED**. Do not add Spaces keys or AWS/GCP origins to public files.
 
@@ -23,7 +26,7 @@ npm run validate
 npm run validate:site:production
 ```
 
-Production mode must **FAIL** while the `.invalid` placeholder origin remains.
+Production mode requires a real `*.ondigitalocean.app` origin in `public/site-origin.txt` and matching canonical/OG/sitemap/robots URLs. It fails if any deployable production-origin placeholder remains.
 
 ## CTA attribution
 
@@ -31,16 +34,25 @@ Production mode must **FAIL** while the `.invalid` placeholder origin remains.
 
 ## FeedWalls
 
-**PENDING** — iframe stub with `data-fw-pending` and `FEEDWALLS_PENDING`.  
+- **Group:** `95969473`
+- **Widget:** `183`
+- **Render count:** 15 (5 authority + 10 iRemoteNotary)
+
 Do not reuse Property #8 / Property #9 / FW-003 FeedWalls Group or Widget IDs.
 
 ## App Platform template
 
-See `.do/app.yaml.template` (OWNER placeholder; do not deploy until free-tier pricing is confirmed $0/month).
+See `.do/app.yaml.template` for the free static-site shape (`output_dir: public`, `error_document: 404.html`, `deploy_on_push: false`).
 
-## Stop conditions
+## GitHub
 
-Do **not** create: DigitalOcean App, GitHub remote, Spaces bucket, custom domain, paid components, search submissions, or Property #11 in this phase.
+- **Repo:** https://github.com/iremotenotary1/iremotenotary-expats-abroad-resources
+- **Branch:** `main`
+- **Visibility:** public
+
+## Stop conditions (post-production)
+
+Do **not** enable autodeploy, add a custom domain, add paid components, create Spaces, or start search discovery (GSC / Bing / IndexNow) until the next authorized phase.
 
 ## Engineering reference
 

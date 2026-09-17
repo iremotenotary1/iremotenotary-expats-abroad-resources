@@ -10,4 +10,4 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-Sitemap: https://PROPERTY-010-NOT-DEPLOYED.ondigitalocean.invalid/sitemap.xml
+Sitemap: https://iremotenotary-expats-abroad-dozom.ondigitalocean.app/sitemap.xml
