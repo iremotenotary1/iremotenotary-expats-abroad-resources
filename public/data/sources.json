@@ -1,0 +1,248 @@
+{
+  "property": "FW-010",
+  "name": "U.S. Documents for Americans & Expats Living Abroad Resource Center",
+  "last_verified": "2026-09-16",
+  "sources": [
+    {
+      "id": "dos-notarial-overseas",
+      "type": "authority",
+      "title": "Notarial and Authentication Services at U.S. Embassies and Consulates",
+      "publisher": "U.S. Department of State",
+      "url": "https://travel.state.gov/content/travel/en/replace-certify-docs/authenticate-your-document/authentication-services-overseas.html",
+      "value": "Consular notarization requires personal appearance; posts do not offer remote/virtual notarial service."
+    },
+    {
+      "id": "dos-apostille",
+      "type": "authority",
+      "title": "Apostille Requirements",
+      "publisher": "U.S. Department of State",
+      "url": "https://travel.state.gov/content/travel/en/legal/travel-legal-considerations/internl-judicial-asst/authentications-and-apostilles/apostille-requirements.html",
+      "value": "Separates notarization from apostille/authentication for foreign use."
+    },
+    {
+      "id": "usa-gov-auth",
+      "type": "authority",
+      "title": "Authenticate an official document for use outside the U.S.",
+      "publisher": "USAGov",
+      "url": "https://www.usa.gov/authenticate-us-document",
+      "value": "Plain-language authentication / apostille orientation for U.S. documents used abroad."
+    },
+    {
+      "id": "cfr-92",
+      "type": "authority",
+      "title": "22 CFR Part 92 — Notarial and Related Services",
+      "publisher": "U.S. Department of State (via Cornell LII)",
+      "url": "https://www.law.cornell.edu/cfr/text/22/part-92",
+      "value": "Regulatory frame for consular notarial acts; LII reproduces CFR text."
+    },
+    {
+      "id": "fl-ron",
+      "type": "authority",
+      "title": "Remote Online Notary Public (RON)",
+      "publisher": "Florida Department of State",
+      "url": "https://dos.fl.gov/sunbiz/other-services/notaries/remote-online-notary-public/",
+      "value": "Commissioning-state RON program context; recipient acceptance remains separate."
+    },
+    {
+      "id": "fl-117-265",
+      "type": "authority",
+      "title": "Florida Statutes §117.265",
+      "publisher": "Florida Legislature",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2024/0117.265",
+      "value": "Online notarization / remote appearance statutory reference when Florida RON law applies."
+    },
+    {
+      "id": "hcch-apostille",
+      "type": "authority",
+      "title": "Apostille Section",
+      "publisher": "HCCH",
+      "url": "https://www.hcch.net/en/instruments/conventions/specialised-sections/apostille",
+      "value": "Hague Apostille Convention framework."
+    },
+    {
+      "id": "mission-mexico",
+      "type": "authority",
+      "title": "U.S. Mission Mexico — Consular Services",
+      "publisher": "U.S. Department of State / Mission Mexico",
+      "url": "https://mx.usembassy.gov/u-s-citizen-services/",
+      "value": "Mission and Consular Agency framing for Mexico hubs including Puerto Vallarta service area."
+    },
+    {
+      "id": "mission-uae",
+      "type": "authority",
+      "title": "U.S. Mission UAE — Consular Services",
+      "publisher": "U.S. Department of State / Mission UAE",
+      "url": "https://ae.usembassy.gov/u-s-citizen-services/",
+      "value": "Embassy/consular environment for Dubai and Abu Dhabi U.S. citizen services."
+    },
+    {
+      "id": "mission-qatar",
+      "type": "authority",
+      "title": "U.S. Embassy Doha — Consular Services",
+      "publisher": "U.S. Department of State / Embassy Doha",
+      "url": "https://qa.usembassy.gov/u-s-citizen-services/",
+      "value": "Consular framing for Qatar U.S. citizen services."
+    },
+    {
+      "id": "dos-under-16",
+      "type": "authority",
+      "title": "Apply for a Child's Passport Under 16",
+      "publisher": "U.S. Department of State",
+      "url": "https://travel.state.gov/en/passports/apply/child/under-16.html",
+      "value": "Controlling child-passport consent rules; deep-link context for DS-3053."
+    },
+    {
+      "id": "irn-international",
+      "type": "iremotenotary",
+      "title": "International Online Notary",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/international-online-notary",
+      "value": "Primary service landing for U.S.-based remote online notarization with international signers.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-guides-hub",
+      "type": "iremotenotary",
+      "title": "International Notary Guides",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/international-notary-guides",
+      "value": "Hub for international execution guides complementary to this location map.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-abroad-guide",
+      "type": "iremotenotary",
+      "title": "Notarizing U.S. Documents Abroad Guide",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/international-notary-guides/notarizing-us-documents-abroad-guide",
+      "value": "General abroad-document orientation complementary to this location-first hub map.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-expats",
+      "type": "iremotenotary",
+      "title": "Online Notary for Expats",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/international-notary-guides/online-notary-for-expats",
+      "value": "Expat-oriented online notary orientation.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-embassy-vs-ron",
+      "type": "iremotenotary",
+      "title": "U.S. Embassy vs Online Notary",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/international-notary-guides/us-embassy-vs-online-notary",
+      "value": "Comparison framing for consular notarization versus remote online notarization.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-foreign-passport",
+      "type": "iremotenotary",
+      "title": "Foreign Passport Online Notarization for a U.S. Document",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/international-notary-guides/foreign-passport-online-notarization-us-document",
+      "value": "Identity/credential preparation for international signers.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-wet-ink",
+      "type": "iremotenotary",
+      "title": "Wet-Ink vs Online Notarization for International Signers",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/international-notary-guides/wet-ink-vs-online-notarization-international-signers",
+      "value": "Format expectations and when electronic execution is not enough.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-acceptance",
+      "type": "iremotenotary",
+      "title": "Will a U.S. Online Notarization Be Accepted in Another Country?",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/international-notary-guides/us-online-notarization-accepted-another-country",
+      "value": "Recipient-acceptance framing for cross-border use.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-apostille-guide",
+      "type": "iremotenotary",
+      "title": "Can an Online Notarized Document Be Apostilled?",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/international-notary-guides/online-notarized-document-apostille",
+      "value": "Apostille pathway after online notarization when required.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-affidavit",
+      "type": "iremotenotary",
+      "title": "U.S. Online Notary Affidavit Overseas",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/international-notary-guides/us-online-notary-affidavit-overseas",
+      "value": "Affidavit abroad deep content deferred briefly on this property.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-ds3053",
+      "type": "iremotenotary",
+      "title": "DS-3053 Parent Overseas Online Notarization Guide",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/international-notary-guides/ds-3053-parent-overseas-online-notarization",
+      "value": "Deep pathway for passport consent — linked from this property instead of cloning Property #9.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-poa-abroad",
+      "type": "iremotenotary",
+      "title": "Notarize Power of Attorney Abroad",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/notarize-power-of-attorney-abroad",
+      "value": "POA abroad deep content deferred briefly here.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-poa-guide",
+      "type": "iremotenotary",
+      "title": "Power of Attorney Online Notarization",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/resources/document-guides/power-of-attorney-online-notarization",
+      "value": "POA document guide complementary to the abroad landing page.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-affidavit-abroad",
+      "type": "iremotenotary",
+      "title": "Notarize Affidavit Abroad",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/notarize-affidavit-abroad",
+      "value": "Affidavit abroad service orientation.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-apostille",
+      "type": "iremotenotary",
+      "title": "Apostille Services",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/services/apostille",
+      "value": "Recipient-first framing for when apostille may be required after notarization.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-editorial",
+      "type": "iremotenotary",
+      "title": "Editorial Policy",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/editorial-policy",
+      "value": "Publisher standards and educational-content boundaries.",
+      "http_status_verified": 200
+    },
+    {
+      "id": "irn-standards",
+      "type": "iremotenotary",
+      "title": "Notary Service Standards",
+      "publisher": "iRemoteNotary",
+      "url": "https://www.iremotenotary.com/notary-service-standards",
+      "value": "Service standards for international online notary sessions.",
+      "http_status_verified": 200
+    }
+  ]
+}

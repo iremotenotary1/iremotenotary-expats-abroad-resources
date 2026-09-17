@@ -1,0 +1,18 @@
+{
+  "name": "americans-abroad-latam-gulf-resources",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Property #10 — U.S. Documents for Americans & Expats Living Abroad (LATAM & Gulf) — DigitalOcean App Platform static site",
+  "scripts": {
+    "preview": "npx --yes serve -l 4180 public",
+    "validate": "node scripts/validate-site.mjs && node scripts/validate-geo.mjs && node scripts/validate-agent-readiness.mjs && node scripts/validate-links.mjs && node scripts/validate-contamination.mjs && node scripts/validate-feedwalls.mjs && node scripts/validate-expat-data.mjs",
+    "validate:site": "node scripts/validate-site.mjs",
+    "validate:site:production": "node scripts/validate-site.mjs --production",
+    "validate:geo": "node scripts/validate-geo.mjs",
+    "validate:agent": "node scripts/validate-agent-readiness.mjs",
+    "validate:links": "node scripts/validate-links.mjs",
+    "validate:contamination": "node scripts/validate-contamination.mjs",
+    "validate:feedwalls": "node scripts/validate-feedwalls.mjs",
+    "validate:expat": "node scripts/validate-expat-data.mjs"
+  }
+}

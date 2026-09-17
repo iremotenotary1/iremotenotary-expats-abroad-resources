@@ -1,0 +1,16 @@
+node_modules/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.do/app.yaml
+.env
+.env.*
+!.env.example
+releases/
+*.log
+.idea/
+.vscode/
+*.pem
+*.p12
+credentials.json
+service-account*.json

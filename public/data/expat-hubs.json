@@ -1,0 +1,266 @@
+{
+  "property": "FW-010",
+  "name": "U.S. Documents for Americans & Expats Living Abroad Resource Center",
+  "regional_descriptor": "LATAM & Gulf Expat Resource Center",
+  "last_verified": "2026-09-16",
+  "claim_limits": [
+    "Never attribute national U.S.-citizen counts to a single city or hub.",
+    "Date-qualify every numeric American-resident claim (year or exact source date).",
+    "InterNations and similar rankings are survey popularity only — not census counts.",
+    "Tier C internal demand signals are never published as public metrics.",
+    "Nigeria, India, Pakistan, and Uzbekistan are excluded from this property's primary map.",
+    "Lebanon / Beirut is watchlist only — not a primary Gulf hub."
+  ],
+  "primary_hubs": [
+    {
+      "id": "mexico-city",
+      "name": "Mexico City",
+      "region": "latam",
+      "country": "Mexico",
+      "tier": "A/B",
+      "population_claim": null,
+      "claim_note": "Large U.S.-connected Mexico population historically; do not publish stale national counts as 2026 census or as a city figure.",
+      "info_gain": "Capital hub with U.S. Mission presence; strong InterNations survey visibility labeled as survey-only.",
+      "anchor": "#mexico-city"
+    },
+    {
+      "id": "lake-chapala-ajijic",
+      "name": "Lake Chapala / Ajijic",
+      "region": "latam",
+      "country": "Mexico",
+      "tier": "A/B",
+      "population_claim": null,
+      "claim_note": "Established retiree community; no invented population count.",
+      "info_gain": "Retiree-document and POA patterns distinct from Mexico City corporate signers.",
+      "anchor": "#lake-chapala-ajijic"
+    },
+    {
+      "id": "puerto-vallarta",
+      "name": "Puerto Vallarta / Nuevo Nayarit",
+      "region": "latam",
+      "country": "Mexico",
+      "tier": "A",
+      "population_claim": null,
+      "claim_note": "Safe phrase: established U.S.-citizen service area (Consular Agency + town hall evidence). No unsupported population number.",
+      "info_gain": "Consular Agency service area framing for Pacific coast U.S. citizens.",
+      "anchor": "#puerto-vallarta"
+    },
+    {
+      "id": "panama-city",
+      "name": "Panama City",
+      "region": "latam",
+      "country": "Panama",
+      "tier": "A/B",
+      "population_claim": {
+        "figure": "~60,000",
+        "scope": "countrywide",
+        "as_of": "2022",
+        "source": "U.S. Department of State Integrated Country Strategy (2022)",
+        "phrase": "approximately 60,000 U.S. residents in Panama (ICS 2022 reporting; date-qualified; not a 2026 census)"
+      },
+      "claim_note": "Date-qualify ICS figure; never treat as city-only count.",
+      "info_gain": "ICS date-qualified national figure plus InterNations survey popularity labeled separately.",
+      "anchor": "#panama-city"
+    },
+    {
+      "id": "boquete-chiriqui",
+      "name": "Boquete / Chiriquí",
+      "region": "latam",
+      "country": "Panama",
+      "tier": "A/B",
+      "population_claim": null,
+      "claim_note": "State Department language on substantial U.S. retiree communities outside Panama City; no stale numerical estimates.",
+      "info_gain": "Highlands retiree path distinct from Panama City banking/corporate docs.",
+      "anchor": "#boquete-chiriqui"
+    },
+    {
+      "id": "costa-rica-central-valley",
+      "name": "Costa Rica Central Valley",
+      "region": "latam",
+      "country": "Costa Rica",
+      "tier": "A",
+      "population_claim": {
+        "figure": "~120,000",
+        "scope": "countrywide",
+        "as_of": "2024-09-13",
+        "source": "U.S. Department of State bilateral fact sheet (September 13, 2024)",
+        "phrase": "approximately 120,000 private U.S. citizens residing in Costa Rica (Sep 13, 2024 fact sheet; countrywide — not San José alone)"
+      },
+      "claim_note": "Do not attribute 120,000 to San José / Escazú alone.",
+      "info_gain": "Countrywide private-citizen figure with explicit Central Valley vs Guanacaste secondary split.",
+      "anchor": "#costa-rica-central-valley"
+    },
+    {
+      "id": "santo-domingo",
+      "name": "Santo Domingo",
+      "region": "latam",
+      "country": "Dominican Republic",
+      "tier": "A",
+      "population_claim": {
+        "figure": "~300,000",
+        "scope": "countrywide",
+        "as_of": "2024-08-02",
+        "source": "U.S. Department of State remarks (August 2, 2024)",
+        "phrase": "approximately 300,000 U.S. citizens residing in the Dominican Republic (Aug 2, 2024; countrywide)"
+      },
+      "claim_note": "National total must not be allocated to Santo Domingo alone.",
+      "info_gain": "Capital / embassy environment within the shared DR countrywide figure.",
+      "anchor": "#santo-domingo"
+    },
+    {
+      "id": "punta-cana-bavaro",
+      "name": "Punta Cana / Bávaro",
+      "region": "latam",
+      "country": "Dominican Republic",
+      "tier": "A",
+      "population_claim": {
+        "figure": "~300,000",
+        "scope": "countrywide",
+        "as_of": "2024-08-02",
+        "source": "U.S. Department of State remarks (August 2, 2024)",
+        "phrase": "shares the Dominican Republic countrywide ~300,000 U.S. citizens figure (Aug 2, 2024); not a city census"
+      },
+      "claim_note": "Same DR countrywide figure; consular service area framing.",
+      "info_gain": "Tourism-corridor consular service area distinct from Santo Domingo.",
+      "anchor": "#punta-cana-bavaro"
+    },
+    {
+      "id": "quito",
+      "name": "Quito",
+      "region": "latam",
+      "country": "Ecuador",
+      "tier": "A/C",
+      "population_claim": null,
+      "claim_note": "State Department Jul 18, 2024: Ecuador has a large American citizen resident population — qualitative only; do not invent a number.",
+      "info_gain": "Andean capital mission environment; Tier C demand never published as metrics.",
+      "anchor": "#quito"
+    },
+    {
+      "id": "cuenca",
+      "name": "Cuenca",
+      "region": "latam",
+      "country": "Ecuador",
+      "tier": "A/C",
+      "population_claim": null,
+      "claim_note": "Shares Ecuador qualitative large American resident population language; no invented number.",
+      "info_gain": "Retiree/expat document mix distinct from Quito government and Guayaquil port/commerce docs.",
+      "anchor": "#cuenca"
+    },
+    {
+      "id": "guayaquil",
+      "name": "Guayaquil",
+      "region": "latam",
+      "country": "Ecuador",
+      "tier": "A/C",
+      "population_claim": null,
+      "claim_note": "Shares Ecuador qualitative language; no invented number.",
+      "info_gain": "Coastal commercial hub with distinct banking and real-estate paperwork patterns.",
+      "anchor": "#guayaquil"
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "region": "gulf",
+      "country": "United Arab Emirates",
+      "tier": "A/B/C",
+      "population_claim": {
+        "figure": "~49,000",
+        "scope": "countrywide",
+        "as_of": "historical",
+        "source": "Historical U.S. Department of State strategy figure for UAE",
+        "phrase": "approximately 49,000 U.S. citizens in the UAE historically (date-qualify; not a 2026 census; not Dubai-only)"
+      },
+      "claim_note": "UAE expats >88% of residents is a broader demographic fact — not an American count. InterNations = survey only.",
+      "info_gain": "Commercial free-zone + banking document intensity; separate from Abu Dhabi embassy environment.",
+      "anchor": "#dubai"
+    },
+    {
+      "id": "abu-dhabi",
+      "name": "Abu Dhabi",
+      "region": "gulf",
+      "country": "United Arab Emirates",
+      "tier": "A/B",
+      "population_claim": {
+        "figure": "~49,000",
+        "scope": "countrywide",
+        "as_of": "historical",
+        "source": "Historical U.S. Department of State strategy figure for UAE",
+        "phrase": "shares the date-qualified historical UAE ~49,000 U.S. citizens figure; not city-attributed"
+      },
+      "claim_note": "Separate city intent and embassy environment from Dubai.",
+      "info_gain": "Embassy / federal capital environment vs Dubai commercial corridors.",
+      "anchor": "#abu-dhabi"
+    },
+    {
+      "id": "doha",
+      "name": "Doha",
+      "region": "gulf",
+      "country": "Qatar",
+      "tier": "A/B",
+      "population_claim": {
+        "figure": "~15,000",
+        "scope": "countrywide",
+        "as_of": "2024",
+        "source": "U.S. Department of State strategy (reviewed/updated 2024)",
+        "phrase": "approximately 15,000 U.S. citizens live/work in Qatar (2024 strategy; date-qualified)"
+      },
+      "claim_note": "Foreign residents ~90% of Qatar population is broader demography — not an American census. Energy/defense/education concentrations are descriptive only.",
+      "info_gain": "Compact capital market with employment-sector document patterns.",
+      "anchor": "#doha"
+    },
+    {
+      "id": "riyadh",
+      "name": "Riyadh",
+      "region": "gulf",
+      "country": "Saudi Arabia",
+      "tier": "A/B",
+      "population_claim": null,
+      "claim_note": "U.S. Embassy Riyadh presence; do not publish old countrywide American estimates as current census.",
+      "info_gain": "Capital / embassy path for Kingdom-wide U.S. document needs.",
+      "anchor": "#riyadh"
+    },
+    {
+      "id": "jeddah",
+      "name": "Jeddah",
+      "region": "gulf",
+      "country": "Saudi Arabia",
+      "tier": "A/B",
+      "population_claim": null,
+      "claim_note": "U.S. Consulate Jeddah; no stale countrywide American totals as current census.",
+      "info_gain": "Western Region consular environment distinct from Riyadh.",
+      "anchor": "#jeddah"
+    },
+    {
+      "id": "saudi-eastern-province",
+      "name": "Saudi Eastern Province",
+      "region": "gulf",
+      "country": "Saudi Arabia",
+      "tier": "A/B",
+      "population_claim": null,
+      "claim_note": "U.S. Consulate Dhahran; American School of Dhahran institutional counts are institutional-only — never extrapolate to regional population.",
+      "info_gain": "Energy-corridor corporate and school-related U.S. paperwork patterns.",
+      "anchor": "#saudi-eastern-province"
+    }
+  ],
+  "secondary_hubs": [
+    { "id": "san-miguel-de-allende", "name": "San Miguel de Allende", "region": "latam", "country": "Mexico", "anchor": "#san-miguel-de-allende" },
+    { "id": "playa-del-carmen", "name": "Playa del Carmen / Riviera Maya", "region": "latam", "country": "Mexico", "anchor": "#playa-del-carmen" },
+    { "id": "guanacaste-tamarindo", "name": "Guanacaste / Tamarindo", "region": "latam", "country": "Costa Rica", "anchor": "#guanacaste-tamarindo" },
+    { "id": "medellin", "name": "Medellín", "region": "latam", "country": "Colombia", "anchor": "#medellin" },
+    { "id": "bogota", "name": "Bogotá", "region": "latam", "country": "Colombia", "anchor": "#bogota" },
+    { "id": "ras-al-khaimah", "name": "Ras Al Khaimah", "region": "gulf", "country": "United Arab Emirates", "anchor": "#ras-al-khaimah" },
+    { "id": "muscat", "name": "Muscat", "region": "gulf", "country": "Oman", "anchor": "#muscat" },
+    { "id": "manama", "name": "Manama", "region": "gulf", "country": "Bahrain", "anchor": "#manama" },
+    { "id": "casablanca-rabat", "name": "Casablanca / Rabat", "region": "mena_adjacent", "country": "Morocco", "anchor": "#casablanca-rabat" },
+    { "id": "puerto-plata", "name": "Puerto Plata", "region": "latam", "country": "Dominican Republic", "anchor": "#puerto-plata" }
+  ],
+  "watchlist": [
+    {
+      "id": "lebanon-beirut",
+      "name": "Lebanon / Beirut",
+      "status": "watchlist_only",
+      "note": "Prior search signal; not elevated to primary Gulf hub on this property."
+    }
+  ],
+  "excluded_from_primary": ["Nigeria", "India", "Pakistan", "Uzbekistan"]
+}

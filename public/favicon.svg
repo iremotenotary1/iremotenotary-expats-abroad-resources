@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="iRemoteNotary">
+  <rect width="64" height="64" rx="14" fill="#0a3a4a"/>
+  <circle cx="32" cy="30" r="16" fill="none" stroke="#e6f4f1" stroke-width="2.5"/>
+  <ellipse cx="32" cy="30" rx="7" ry="16" fill="none" stroke="#1a9b8e" stroke-width="2"/>
+  <path d="M16 30h32M32 14c4 6 4 20 0 32M32 14c-4 6-4 20 0 32" fill="none" stroke="#e6f4f1" stroke-width="1.5"/>
+  <rect x="20" y="46" width="24" height="8" rx="2" fill="#c4a35a"/>
+</svg>
